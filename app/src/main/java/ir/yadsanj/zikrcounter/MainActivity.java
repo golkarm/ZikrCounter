@@ -23,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
         zikrView.setText(zikr + "");
     }
 
+    public void deleteOne(View v) {
+        zikr = zikr - 1;
+        zikrView.setText(zikr + "");
+    }
+
     public void reset(View v) {
         zikr = 0;
         zikrView.setText(zikr + "");
